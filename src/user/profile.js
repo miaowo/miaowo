@@ -11,8 +11,8 @@ var plugins = require('../plugins');
 
 module.exports = function (User) {
 	User.updateProfile = function (uid, data, callback) {
-		var fields = ['username', 'email', 'fullname', 'website', 'location',
-			'groupTitle', 'birthday', 'signature', 'aboutme'];
+		var fields = ['username', 'email', 'fullname', 'website', 
+			'groupTitle', 'signature', 'aboutme'];
 
 		var updateUid = data.uid;
 		var oldData;
