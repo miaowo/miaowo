@@ -110,7 +110,7 @@ helpers.getUserDataByUserSlug = function (userslug, callerUID, callback) {
 
 			userData.joindateISO = utils.toISOString(userData.joindate);
 			userData.lastonlineISO = utils.toISOString(userData.lastonline || userData.joindate);
-			userData.age = Math.max(0, userData.birthday ? Math.floor((new Date().getTime() - new Date(userData.birthday).getTime()) / 31536000000) : 0);
+			// userData.age = Math.max(0, userData.birthday ? Math.floor((new Date().getTime() - new Date(userData.birthday).getTime()) / 31536000000) : 0);
 
 			userData.emailClass = 'hide';
 
@@ -176,10 +176,10 @@ helpers.getUserDataByUserSlug = function (userslug, callerUID, callback) {
 
 			userData.email = validator.escape(String(userData.email || ''));
 			userData.fullname = validator.escape(String(userData.fullname || ''));
-			userData.location = validator.escape(String(userData.location || ''));
+			// userData.location = validator.escape(String(userData.location || ''));
 			userData.signature = validator.escape(String(userData.signature || ''));
 			userData.aboutme = validator.escape(String(userData.aboutme || ''));
-			userData.birthday = validator.escape(String(userData.birthday || ''));
+			// userData.birthday = validator.escape(String(userData.birthday || ''));
 			userData.moderationNote = validator.escape(String(userData.moderationNote || ''));
 
 			if (userData['cover:url']) {
