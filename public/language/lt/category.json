@@ -1,0 +1,20 @@
+{
+    "category": "Kategorija",
+    "subcategories": "Subkategorijos",
+    "new_topic_button": "Nauja tema",
+    "guest-login-post": "Prisijungti įrašų paskelbimui",
+    "no_topics": "<strong>Šioje kategorijoje temų nėra.</strong><br/>Kodėl gi jums nesukūrus naujos?",
+    "browsing": "naršo",
+    "no_replies": "Nėra atsakymų",
+    "no_new_posts": "Nėra naujų pranešimų.",
+    "share_this_category": "Pasidalinti šią kategoriją",
+    "watch": "Stebėti",
+    "ignore": "Ignoruoti",
+    "watching": "Stebima",
+    "ignoring": "Ignoruojama",
+    "watching.description": "Parodyti neperskaitytas temas",
+    "ignoring.description": "Nerodyti neskaitytų temų",
+    "watch.message": "Jūs dabar stebite šios kategorijos ir jos sub-kategorijų atnaujinimus",
+    "ignore.message": "Jūs dabar ignoruojate šios kategorijos ir jos sub-kaategorijųu atnaujinimus",
+    "watched-categories": "Stebimos kategorijos"
+}

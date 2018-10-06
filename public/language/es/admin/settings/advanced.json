@@ -1,0 +1,22 @@
+{
+	"maintenance-mode": "Modo de Mantenimiento",
+	"maintenance-mode.help": "Cuando este foro están en Modo de Mantenimiento, todas las peticiones serán redirigidas a una página estática de mantenimiento. Los administradores están exentos de esta redirección, y pueden acceder al sitio normalmente.",
+	"maintenance-mode.message": "Mensaje de Mantenimiento",
+	"headers": "Cabeceras",
+	"headers.allow-from": "Establecer ALLOW-FROM para poner NodeBB en un iFrame",
+	"headers.powered-by": "Personalizar la cabecera \"powered By\" enviada por NodeBB",
+	"headers.acao": "Access-Control-Allow-Origin",
+	"headers.acao-regex": "Access-Control-Allow-Origin Regular Expression",
+	"headers.acao-help": "Para denegar acceso a todos los sitios, dejar vacío",
+	"headers.acao-regex-help": "Enter regular expressions here to match dynamic origins. To deny access to all sites, leave empty",
+	"headers.acac": "Credenciales-Control-Permitir-Acceso",
+	"headers.acam": "Access-Control-Allow-Methods",
+	"headers.acah": "Access-Control-Allow-Headers",
+	"traffic-management": "Administración de Tráfico",
+	"traffic.help": "NodeBB se despliega equipado con un módulo que deniega automáticamente requests de HTTP en situaciones de tráfico alto. Puedes ajustar esta configuración aquí, aunque los valores por defecto son un punto de partida aceptable.",
+	"traffic.enable": "Habilitar Administración de Tráfico",
+	"traffic.event-lag": "Límite de Lag para el Event Loop (en milisegundos)",
+	"traffic.event-lag-help": "Bajar este valor disminuye los tiempos de espera para cargas de página, pero también mostrará el mensaje \"carga excesiva\" a mas usuarios. (Se requiere Reiniciar)",
+	"traffic.lag-check-interval": "Chequear intervalo (milisegundos)",
+	"traffic.lag-check-interval-help": "Bajar este valor causará que NodeBB sea más sensible a picos de carga, pero también causará que el chequeo sea muy sensible. (Requiere reinicio)"
+}
