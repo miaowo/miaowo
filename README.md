@@ -1,9 +1,8 @@
-### 喵窝
+### miaowo-main
 
-## 截图
+#### This repository contains an older version of the codebase running at miaowo.org
+#### Please follow dev@miaowo.org for more information.
 
-![喵窝网页截图](screenshot.png)
-
-## 许可证
+## License
 
 **GNU General Public License v3 (GPL-3)** (http://www.gnu.org/copyleft/gpl.html).
